@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 export default function Textform(props) {
-    const [text, setText] = useState('Enter your text here smj gaye naa')
+    const [text, setText] = useState('Enter your text here')
 
     function handleupclick() {
         console.log("upper was clicked " + text)
